@@ -4,5 +4,7 @@
     <string name="app_name">ProjetAndroid</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="action_settings2">Settings2</string>
+    <string name="lol">LOOOOL</string>
 
 </resources>
