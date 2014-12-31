@@ -2,9 +2,10 @@
 <resources>
 
     <string name="app_name">ProjetAndroid</string>
-    <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
-    <string name="action_settings2">Settings2</string>
-    <string name="lol">LOOOOL</string>
-
+    <string name="bouton1">Je suis un bouton (inutile)</string>
+    <string name="action_settings">Action 1</string>
+    <string name="action_settings2">Infos</string>
+    <string name="message_accueil">Voici mon application Android</string>
+    <string name="message_activity1">Ici, il y aura bientôt quelque chose !</string>
+    
 </resources>

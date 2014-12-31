@@ -30,7 +30,12 @@ public class MainActivity extends ActionBarActivity {
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
         if (id == R.id.action_settings) {
-        	Toast.makeText(getApplicationContext(), "Je comprends rien", Toast.LENGTH_SHORT).show();
+            setContentView(R.layout.activity1);
+        	Toast.makeText(getApplicationContext(), "Je vais à l'activité 1", Toast.LENGTH_SHORT).show();
+            return true;
+        }
+        if (id == R.id.action_settings2) {
+        	Toast.makeText(getApplicationContext(), "Informations sur l'appli pas encore disponible", Toast.LENGTH_SHORT).show();
             return true;
         }
         return super.onOptionsItemSelected(item);
