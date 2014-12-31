@@ -4,15 +4,22 @@ import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.ImageButton;
 import android.widget.Toast;
 
 
 public class MainActivity extends ActionBarActivity {
+	
+	ImageButton imageButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+    
+    	addListenerOnButton();
     }
 
 
@@ -22,6 +29,21 @@ public class MainActivity extends ActionBarActivity {
         getMenuInflater().inflate(R.menu.main, menu);
         return true;
     }
+    
+    public void addListenerOnButton() {
+    	 
+		imageButton = (ImageButton) findViewById(R.id.imageButton1);
+ 
+		imageButton.setOnClickListener(new OnClickListener() {
+ 
+			@Override
+			public void onClick(View arg0) { 
+			    setContentView(R.layout.activity1);
+			}
+ 
+		});
+ 
+	}
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
@@ -30,11 +52,6 @@ public class MainActivity extends ActionBarActivity {
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
         if (id == R.id.action_settings) {
-            setContentView(R.layout.activity1);
-        	Toast.makeText(getApplicationContext(), "Je vais à l'activité 1", Toast.LENGTH_SHORT).show();
-            return true;
-        }
-        if (id == R.id.action_settings2) {
         	Toast.makeText(getApplicationContext(), "Informations sur l'appli pas encore disponible", Toast.LENGTH_SHORT).show();
             return true;
         }

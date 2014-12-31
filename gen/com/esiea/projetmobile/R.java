@@ -1077,7 +1077,9 @@ containing a value of this type.
         public static final int abc_textfield_searchview_holo_light=0x7f020054;
         public static final int abc_textfield_searchview_right_holo_dark=0x7f020055;
         public static final int abc_textfield_searchview_right_holo_light=0x7f020056;
-        public static final int ic_launcher=0x7f020057;
+        public static final int globe=0x7f020057;
+        public static final int globee=0x7f020058;
+        public static final int ic_launcher=0x7f020059;
     }
     public static final class id {
         public static final int action_bar=0x7f09001c;
@@ -1092,11 +1094,9 @@ containing a value of this type.
         public static final int action_menu_presenter=0x7f090003;
         public static final int action_mode_close_button=0x7f090024;
         public static final int action_settings=0x7f090040;
-        public static final int action_settings2=0x7f090041;
         public static final int activity_chooser_view_content=0x7f090025;
         public static final int always=0x7f09000f;
         public static final int beginning=0x7f090016;
-        public static final int bouton1=0x7f09003f;
         public static final int checkbox=0x7f09002d;
         public static final int collapseActionView=0x7f090010;
         public static final int default_activity_button=0x7f090028;
@@ -1112,6 +1112,7 @@ containing a value of this type.
         public static final int icon=0x7f09002a;
         public static final int ifRoom=0x7f090011;
         public static final int image=0x7f090027;
+        public static final int imageButton1=0x7f09003f;
         public static final int listMode=0x7f090006;
         public static final int listViewMainActivity=0x7f09003d;
         public static final int list_item=0x7f090029;
@@ -1245,12 +1246,10 @@ containing a value of this type.
         /**  Description of a share target (both in the list of such or the default share button) in a ShareActionProvider (share UI). [CHAR LIMIT=NONE] 
          */
         public static final int abc_shareactionprovider_share_with_application=0x7f0a000b;
-        public static final int action_settings=0x7f0a000f;
-        public static final int action_settings2=0x7f0a0010;
+        public static final int action_settings=0x7f0a000e;
         public static final int app_name=0x7f0a000d;
-        public static final int bouton1=0x7f0a000e;
-        public static final int message_accueil=0x7f0a0011;
-        public static final int message_activity1=0x7f0a0012;
+        public static final int message_accueil=0x7f0a000f;
+        public static final int message_activity1=0x7f0a0010;
     }
     public static final class style {
         /** 
